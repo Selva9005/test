@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="">SK</a>
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+            
+        </ul>
+
+        <div class="menu">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+    
+        </div>
+    </nav>
+
+    <section class="home">
+               <div class="homecontent">
+                <h1>Hi, I'm SelvaKumar
+                </h1>
+                <h3>Frontend Developer</h3>
+                <div class="btnbox">
+                    <a href="#">Hire Me</a>
+                    <a href="#">Let's Talk</a>
+                </div>
+               </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="headingg">About <span>Me</span>
+        </h2>
+        <div class="aboutcontent">
+            <h3>Frontend Developer</h3>
+            <p>An enthusiastic and detail-oriented Junior Frontend Developer with proficient knowledge in HTML and CSS. Seeking to utilize my technical skills and expertise to provide value to the employer and contribute to successful projects both today and in the future. Aiming to take on new challenges and utilize my coding and debugging skills for developing new features and enhance the overall user experience.</p>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h1>My Skills</h1>
+        <p>HTML</p>
+        <div class="container">
+          <div class="skills html">90%</div>
+        </div>
+        
+        <p>CSS</p>
+        <div class="container">
+          <div class="skills css">80%</div>
+        </div>
+        
+        <p>JavaScript</p>
+        <div class="container">
+          <div class="skills js">65%</div>
+        </div>
+        
+        <p>REACT JS</p>
+        <div class="container">
+          <div class="skills php">20%</div>
+        </div>
+
+    </section>
+    <section class="contact">
+        <div class="contact">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon"><img src="./Fonts/location.png" alt="E:\Front End Project\Portfolio\Fonts">
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>No 7 madipakkam,
+                                velahery,
+                                chennai-600091.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><img src="./Fonts/call.png" alt="E:\Front End Project\Portfolio\Fonts">
+                        <div class="text">
+                            <h3>Phone Number</h3>
+                            <p>9080484040</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><img src="./Fonts/mail.png" alt="E:\Front End Project\Portfolio\Fonts">
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>selva8223@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+<script>
+    const menu = document.querySelector('.menu')
+    const menuList = document.querySelector('nav ul')
+    menu.addEventListener('click',()=>{
+        menuList.classList.toggle('showmenu')
+    })
+</script>
+</html>
